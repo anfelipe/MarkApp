@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="app_name">MarkApp</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scanbtn">Marking</string>
+    <string name="register">Check in</string>
+    <string name="cambiarDisp">Change Device</string>
+    <string name="myMarcacion">My Dial</string>
+    <string name="autoCambioDisp">Authorize Change Disp</string>
+
+    /*Jefe*/
+    <string name="personal">See Staff</string>
+
+    /*Registro*/
+    <string name="id_Usuario">Identification</string>
+    <string name="nom_Usuario">Name</string>
+    <string name="apell_Usuario">Last Name</string>
+    <string name="area_Usuario">Area</string>
+    <string name="cargo_Usuario">Cargo</string>
+    <string name="registrar_Usuario">Register</string>
+    <string name="nroDocummento">Document</string>
+
+    /*Cambio Dispositivo*/
+    <string name="cambioDisp">Enter the identification number for the switch device</string>
+    <string name="btnaceptar">Enter</string>
+
+    /*Fragment Info*/
+    <string name="infoUltimaMarca">Last Dial</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/markapp0" android:duration="50"></item>
+    <item android:drawable="@drawable/markapp45" android:duration="50"></item>
+    <item android:drawable="@drawable/markapp90" android:duration="50"></item>
+    <item android:drawable="@drawable/markapp135" android:duration="50"></item>
+</animation-list>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<string name="app_name">MarkApp</string>-->
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="scanbtn">Registrar Marcación</string>
+    <string name="register">Registrarse</string>
+    <string name="cambiarDisp">Cambiar Dispositivo</string>
+    <string name="myMarcacion">Mis Marcaciones</string>
+    <string name="autoCambioDisp">Autorizar Cambio Disp</string>
+
+    /*Jefe*/
+    <string name="personal">Ver personal</string>
+
+    /*Registro*/
+    <string name="id_Usuario">Identificación</string>
+    <string name="nom_Usuario">Nombres</string>
+    <string name="apell_Usuario">Apellidos</string>
+    <string name="area_Usuario">Area</string>
+    <string name="cargo_Usuario">Cargo</string>
+    <string name="registrar_Usuario">Registrar</string>
+    <string name="nroDocummento">Nro Documento</string>
+
+    /*Cambio Dispositivo*/
+    <string name="cambioDisp">Ingrese el número de documento de identidad para realizar el cambio de dispositivo</string>
+    <string name="btnaceptar">Aceptar</string>
+
+    /*Fragment Info*/
+    <string name="infoUltimaMarca">Ultima Marcación</string>
+</resources>

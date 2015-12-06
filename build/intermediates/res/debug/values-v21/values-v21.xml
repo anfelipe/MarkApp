@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/GitHub/MarkApp/markApp/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <color name="window_Background">#ffffff</color>
+    <style name="AppThemeNoBar" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_Background</item>
+
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

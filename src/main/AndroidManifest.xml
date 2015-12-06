@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uniajc.markapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:theme="@style/AppTheme"
+        android:logo="@drawable/logo_actionbar">
+        <activity
+            android:name="com.uniajc.markapp.MainActivity"
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.uniajc.markapp.MainActivity"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+    </activity>
+
+    <activity
+        android:name="com.google.zxing.client.android.CaptureActivity"
+        android:clearTaskOnLaunch="true"
+        android:configChanges="orientation|keyboardHidden"
+        android:screenOrientation="landscape"
+        android:stateNotNeeded="true"
+        android:windowSoftInputMode="stateAlwaysHidden">
+
+            <intent-filter >
+                <action android:name="com.uniajc.markapp.SCAN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".RegisterActivity">
+            <intent-filter>
+                <action android:name="com.uniajc.markapp.RegisterActivity"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppThemeNoBar"
+            android:screenOrientation="landscape"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"></action>
+                <category android:name="android.intent.category.LAUNCHER"></category>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EmpleadosActivity"
+            android:configChanges="orientation">
+            <intent-filter>
+                <action android:name="com.uniajc.markapp.EmpleadosActivity"></action>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
